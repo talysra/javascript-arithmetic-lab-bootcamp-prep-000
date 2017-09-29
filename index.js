@@ -27,7 +27,7 @@ function makeInt(a) {
 }
 
 function makeInt() {
-  parseInt('0', 10)
+  parseInt('0x2328', 10)
 }
 
 function preserveDecimal() {
