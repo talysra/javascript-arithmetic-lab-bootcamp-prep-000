@@ -22,11 +22,11 @@ function dec(a) {
   return a -= 1
 }
 
-function makeInt(a) {
+function makeInt(n) {
   parseInt('a', 10)
 }
 
-function makeInt(a) {
+function makeInt(n) {
   parseInt('0x2328', 10)
 }
 
