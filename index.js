@@ -29,12 +29,12 @@ function dec(a) {
   return number;
 }
 
-function makeInt() {
+function makeInt(a) {
   number = parseInt(a, 10);
   return number;
 }
 
-function preserveDecimal() {
+function preserveDecimal(a) {
   number = parseFloat(a, 10);
   return number;
 }
