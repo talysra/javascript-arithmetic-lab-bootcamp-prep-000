@@ -24,8 +24,7 @@ function dec(a) {
 
 function makeInt() {
   parseInt('a', 10)
-  parseInt('0.2328', 10)
-  parseInt('sldkjflksjf')
+  parseInt('0x2328', 10)
 }
 
 function preserveDecimal() {
