@@ -23,7 +23,7 @@ function dec(a) {
 }
 
 function makeInt() {
-  parseInt('a', 10)
+  parseInt('a', 10) === a
   parseInt()
   parseInt('0.2328', 10) === 0
 }
