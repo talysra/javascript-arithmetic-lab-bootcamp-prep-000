@@ -25,7 +25,7 @@ function dec(a) {
 function makeInt() {
   parseInt('a', 10) === a
   parseInt('0.2328', 10) === 0
-  parseInt()
+  parseInt('sldkjflksjf')
 }
 
 function preserveDecimal() {
