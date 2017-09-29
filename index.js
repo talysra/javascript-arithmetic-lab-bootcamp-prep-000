@@ -1,33 +1,40 @@
+var number;
 function add(a, b) {
-  return a + b
+  number = a + b;
+  return number;
 }
 
 function subtract(a, b) {
-  return a - b
+  number = a - b;
+  return number;
 }
 
 function multiply(a, b) {
-  return a * b
+  number = a * b;
+  return number;
 }
 
 function divide(a, b) {
-  return a / b
+  number = a / b;
+  return number;
 }
 
 function inc(a) {
-  return a += 1;
+  number = a += 1;
+  return number;
 }
 
 function dec(a) {
-  return a -= 1
+  number = a -= 1;
+  return number;
 }
 
 function makeInt() {
-  parseInt('a', 10)
-  parseInt('878', 10)
+  number = parseInt(a, 10);
+  return number;
 }
 
 function preserveDecimal() {
-  parseFloat('80.123999')
-  parseFloat('a')
+  number = parseFloat(a, 10);
+  return number;
 }
